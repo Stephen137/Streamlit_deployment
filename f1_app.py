@@ -1,11 +1,10 @@
 import streamlit as st
 import geopandas as gpd
-from geojson import Feature, Point, FeatureCollection
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import leafmap.foliumap as leafmap
-import altair as alt
+
 
 
 # cosmetic config
