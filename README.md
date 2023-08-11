@@ -17,6 +17,9 @@ The database can also be downloaded as a set of CSV files which can be imported 
 ### Data structure and schema
 
 Each CSV file contains a single database table. The text encoding is UTF-8 and the first line of each file contains the column headers. The tables are described in the [User Guide](http://ergast.com/docs/f1db_user_guide.txt) also shown below :
+
+
+```python
 +----------------------------+
 | Ergast Database User Guide |
 +----------------------------+
@@ -249,6 +252,8 @@ status table
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 To view a copy of this license, visit: http://creativecommons.org/licenses/by-nc-sa/3.0/
+```
+
 ## Spatial data source
 
 Now I needed the maps. When I find the time, I will have a go at creating my own maps, but I was very grateful to find that [Tomislav Bacinger](https://github.com/bacinger) had already curated circuit [geojson files](https://github.com/bacinger/f1-circuits/blob/master/f1-circuits.geojson) for 35 tracks.
